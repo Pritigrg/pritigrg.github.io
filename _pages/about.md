@@ -39,6 +39,7 @@ latest_posts:
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
+
 I’m a Ph.D. candidate in Computer Science at Howard University, advised by Dr. Jiang Li and Dr. [Danda B. Rawat](https://www.rawat.info/).
 My research focuses on multimodal AI, particularly vision-language models and physical world understanding.
 
