@@ -57,7 +57,7 @@ Before my Ph.D., I earned a B.Sc. in Computer Science and Information Technology
 ## Education
 
 **Ph.D. in Computer Science** — Howard University, Washington, DC
-<br>Jan. 2024 – ,May. 2028 (expected) &nbsp;·&nbsp; GPA: 3.9/4.0
+<br>Jan. 2024 – May. 2028 (expected) &nbsp;·&nbsp; GPA: 3.9/4.0
 
 **B.Sc. in Computer Science and Information Technology** — Tribhuvan University, Kathmandu, Nepal
 <br>2015 – 2019 &nbsp;·&nbsp; GPA: 3.4/4.0
