@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Priti Gurung — Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <a class="brand" href="#about">Priti Gurung</a>
+  <ul>
+    <li><a href="#research">Research</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#publications">Publications</a></li>
+    <li><a href="#cv">CV</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#awards">Awards</a></li>
+  </ul>
+</nav>
+
+<!-- ABOUT -->
+<section id="about">
+  <div class="container">
+    <div class="hero">
+      <div class="hero-text">
+        <h1>Priti Gurung</h1>
+        <p class="subtitle">
+          Ph.D. Candidate in Computer Science ·
+          <a href="https://howard.edu/" style="color:inherit;">Howard University</a>
+        </p>
+        <p class="bio">
+          I am a Computer Science Ph.D. candidate at Howard University, advised by Dr. Jiang Li
+          and Dr. Danda B. Rawat. My research sits at the intersection of computer vision,
+          multimodal AI, and physical world understanding.
+        </p>
+        <p class="bio">
+          Before starting my Ph.D., I earned my B.Sc. in Computer Science and Information
+          Technology from Tribhuvan University in Nepal.
+        </p>
+
+        <ul class="highlights-list">
+          <li>Research Assistant at Howard University — multimodal AI, material understanding, person re-identification</li>
+          <li>Author of work at NeurIPS WiML, AWS ML University AI/ML Student Poster Session, and SPIE</li>
+          <li>Reviewer, Women in Machine Learning at NeurIPS, 2024–2025</li>
+          <li>Travel fund recipient: WiML at NeurIPS 2024 and WiCV at CVPR 2025</li>
+          <li>Member: IEEE Computer Society, IEEE RAS, SWE, Women in Engineering, Rewriting the Code</li>
+          <li>Mentor and graduate student judge, BisonBytes Hackathon, March 2025</li>
+          <li>AI Fellowship Scholar, Fusemachines, 2018</li>
+          <li>Founder, Miss Mongol Scholarship Foundation, 2019</li>
+        </ul>
+
+        <div class="social-links">
+          <a href="mailto:priti.gurung.phd@gmail.com">✉ Email</a>
+          <a href="https://github.com/Pritigrg" target="_blank">⌥ GitHub</a>
+          <a href="https://www.linkedin.com/in/priti-gurung-840b3b133/" target="_blank">in LinkedIn</a>
+          <a href="https://scholar.google.com/citations?user=SHeulucAAAAJ&hl=en&oi=ao" target="_blank">◎ Google Scholar</a>
+          <a href="/cv/" target="_blank">↓ CV</a>
+        </div>
+      </div>
+      <div class="hero-photo">
+        <img src="../assets/img/prof_pic.jpg" alt="Priti Gurung"
+             onerror="this.style.display='none'; this.parentElement.textContent='PG'" />
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- RESEARCH -->
+<section id="research">
+  <div class="container">
+    <h2 class="section-title">Research Interests</h2>
+    <div class="research-grid">
+      <div class="research-card">
+        <h3>Multimodal Learning</h3>
+        <p>Vision, language, and touch integration for physical world understanding and material perception.</p>
+      </div>
+      <div class="research-card">
+        <h3>Person Re-Identification</h3>
+        <p>Feature refinement and representation learning for robust visual identity matching.</p>
+      </div>
+      <div class="research-card">
+        <h3>Tactile &amp; Material Reasoning</h3>
+        <p>Touch-vision-language models for classifying physical properties beyond visual appearance.</p>
+      </div>
+      <div class="research-card">
+        <h3>Trustworthy AI</h3>
+        <p>Interpretable, neuro-symbolic, and safe AI systems for collaborative human-autonomy settings.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects">
+  <div class="container">
+    <h2 class="section-title">Projects</h2>
+
+    <div class="project-card">
+      <span class="tag">Research · 2025</span>
+      <h3>Body-Part Aware Prompting for Person Re-Identification</h3>
+<p>Explores how body-part-aware prompting can improve reliability of vision-language models for person
+        re-identification by guiding model attention toward semantically meaningful body regions.</p>
+      <ul>
+        <li>Proposed a body-part-aware prompting strategy to improve attention localization and identity matching robustness</li>
+        <li>Accepted to the AWS Machine Learning University AI/ML Student Poster Session 2025</li>
+        <li>Reflects broader interest in interpretable multimodal systems aligned with task structure</li>
+      </ul>
+    </div>
+
+    <div class="project-card">
+      <span class="tag">Research · 2025</span>
+      <h3>Extended TVL Dataset for Material Classification</h3>
+      <p>Extends the Touch-Vision-Language (TVL) dataset with material-type annotations to support multimodal
+        material understanding, combining dataset development, tactile representation learning, and label quality analysis.</p>
+      <ul>
+        <li>Extended dataset with material-level labels and built a tactile-only encoder-based classifier</li>
+        <li>Investigated agreement between LLM-annotated and human-labeled categories</li>
+        <li>Studied whether tactile signals alone can classify visually ambiguous materials</li>
+      </ul>
+    </div>
+
+    <div class="project-card">
+      <span class="tag">Research · 2025</span>
+      <h3>LOOM — Feature Refinement for Person Re-Identification</h3>
+      <p>A lightweight, training-free feature refinement method based on leave-one-out mean centering that improves
+        embedding quality at inference time without retraining the base model.</p>
+      <ul>
+        <li>Proposed identity-aware and cluster-aware variants for supervised and label-free settings</li>
+        <li>Improved feature separability while reducing intra-class variance</li>
+        <li>Efficient enough for inference-time use with no architecture changes</li>
+      </ul>
+    </div>
+
+    <div class="project-card">
+      <span class="tag">Research · 2024</span>
+      <h3>Risk Profiling with LLMs and Few-Shot Prompting</h3>
+      <p>Uses large language models and few-shot prompting to automate risk assessment from social media data,
+        producing interpretable scores across multiple decision dimensions.</p>
+      <ul>
+        <li>Designed a 0–10 scoring framework for financial stability, cybersecurity, and reputation management</li>
+        <li>Built the pipeline to support analysis at social-media scale</li>
+        <li>Presented as an accepted poster at NeurIPS Women in Machine Learning Workshop</li>
+      </ul>
+    </div>
+
+    <div class="project-card">
+      <span class="tag">Research · 2024</span>
+      <h3>Trustworthy Human-Autonomy Teaming</h3>
+      <p>Investigates neuro-symbolic reinforcement learning for trustworthy human-autonomy teaming, connecting
+        learning-based control with structured reasoning for safer and more interpretable AI behavior.</p>
+      <ul>
+        <li>Explored neuro-symbolic RL framed around assurance and security for AI-enabled systems</li>
+        <li>Oral presentation at SPIE Assurance and Security for AI-enabled Systems, 2024</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- PUBLICATIONS -->
+<section id="publications">
+  <div class="container">
+    <h2 class="section-title">Publications</h2>
+
+    <div class="pub-item">
+      <div class="pub-year">2025</div>
+      <div class="pub-body">
+        <h3>LOOM — Rethinking Feature Refinement for Person Re-Identification</h3>
+        <p class="pub-venue">Under submission</p>
+        <p>Developed a plug-and-play, training-free feature enhancement method based on leave-one-out mean centering,
+          with identity-aware and cluster-aware variants for supervised and label-free settings.</p>
+      </div>
+    </div>
+
+    <div class="pub-item">
+      <div class="pub-year">2025</div>
+      <div class="pub-body">
+        <h3>Extended TVL Dataset for Material Classification</h3>
+        <p class="pub-venue">Ongoing</p>
+        <p>Extended a touch-vision-language dataset with material annotations, built a tactile-only encoder-based
+          classifier, and investigated agreement between LLM-generated and human-provided labels.</p>
+      </div>
+    </div>
+
+    <div class="pub-item">
+      <div class="pub-year">2025</div>
+      <div class="pub-body">
+        <h3>Getting the Right Attention — Body-Part Aware Prompting for Person Re-Identification</h3>
+        <p class="pub-venue">AWS Machine Learning University AI/ML Student Poster Session</p>
+        <p>Proposed body-part-aware prompting to guide vision-language models toward stronger localization
+          and more robust person re-identification.</p>
+      </div>
+    </div>
+
+    <div class="pub-item">
+      <div class="pub-year">2024</div>
+      <div class="pub-body">
+        <h3>Risk Profiling using LLM and Few-shot Prompting Technique</h3>
+        <p class="pub-venue">NeurIPS Women in Machine Learning Workshop</p>
+        <p>Accepted poster presentation. Proposed an automated system for risk assessment using LLMs and prompt
+          engineering with a 0–10 scoring framework for financial stability, cybersecurity, and reputation management.</p>
+      </div>
+    </div>
+
+    <div class="pub-item">
+      <div class="pub-year">2024</div>
+      <div class="pub-body">
+        <h3>Towards Neuro-Symbolic Reinforcement Learning for Trustworthy Human-Autonomy Teaming</h3>
+        <p class="pub-venue">Assurance and Security for AI-enabled Systems, SPIE</p>
+        <p>Oral presentation on neuro-symbolic reinforcement learning for trustworthy human-autonomy teaming.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CV -->
+<section id="cv">
+  <div class="container">
+    <h2 class="section-title">Education</h2>
+
+    <div class="cv-item">
+      <div>
+        <div class="role">Ph.D. in Computer Science</div>
+        <h3>Howard University</h3>
+        <div class="meta">Washington, DC · GPA: 3.9/4.0 · Expected: December 2027</div>
+      </div>
+      <div class="date">2024 – 2027</div>
+    </div>
+
+    <div class="cv-item">
+      <div>
+        <div class="role">B.Sc. in Computer Science and Information Technology</div>
+        <h3>Tribhuvan University</h3>
+        <div class="meta">Kathmandu, Nepal · GPA: 3.4/4.0</div>
+      </div>
+      <div class="date">2015 – 2019</div>
+    </div>
+
+    <h2 class="section-title" style="margin-top:3rem;">Experience</h2>
+
+    <div class="cv-item">
+      <div>
+        <div class="role">Research Assistant</div>
+        <h3>Howard University</h3>
+        <div class="meta">Washington, DC</div>
+      </div>
+      <div class="date">2024 – Present</div>
+      <ul>
+        <li>Investigate limitations of vision-only models for physical and material understanding, including predictive object attributes such as fragile vs. non-fragile, soft vs. rigid.</li>
+        <li>Study how physical understanding improves robust decision-making in manipulation and interaction tasks.</li>
+        <li>Explore dataset-driven approaches, including touch-vision-language data, for multimodal alignment.</li>
+        <li>Developed LOOM, a lightweight training-free method for refining person re-identification features at inference time.</li>
+        <li>Designed a more stable and efficient alternative by addressing identity mixing and added computational cost in existing approaches.</li>
+      </ul>
+    </div>
+
+    <div class="cv-item">
+      <div>
+        <div class="role">Teaching Assistant</div>
+        <h3>Howard University</h3>
+        <div class="meta">Washington, DC</div>
+      </div>
+      <div class="date">2024 – Present</div>
+      <ul>
+        <li>Supported Structure of Programming Languages, Intro to Computer Science (III), Applied Data Science, Theory of Computation, Computer Organization (I), and Introduction to AI.</li>
+      </ul>
+    </div>
+
+    <div class="cv-item">
+      <div>
+        <div class="role">Data Business Analyst</div>
+        <h3>Cedar Gate Technologies</h3>
+        <div class="meta">Greenwich, CT</div>
+      </div>
+      <div class="date">2022 – 2023</div>
+    </div>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills">
+  <div class="container">
+    <h2 class="section-title">Skills</h2>
+    <div class="skills-grid">
+      <div class="skill-group">
+        <h3>Programming</h3>
+        <div class="tags">
+          <span>Python</span><span>C++</span><span>C</span><span>SQL</span><span>MATLAB</span>
+        </div>
+      </div>
+      <div class="skill-group">
+        <h3>Machine Learning &amp; AI</h3>
+        <div class="tags">
+          <span>PyTorch</span><span>TensorFlow</span><span>Transformers</span><span>Hugging Face</span>
+          <span>Scikit-learn</span><span>OpenCV</span><span>CLIP</span><span>Vision-Language Models</span>
+          <span>Multimodal Learning</span>
+        </div>
+      </div>
+      <div class="skill-group">
+        <h3>GPU &amp; Systems</h3>
+        <div class="tags">
+          <span>CUDA</span><span>GPU Acceleration (PyTorch)</span><span>Parallel Computing</span><span>Linux</span>
+        </div>
+      </div>
+      <div class="skill-group">
+        <h3>Robotics &amp; Embodied AI</h3>
+        <div class="tags">
+          <span>Perception for Manipulation</span><span>Robot Grasping</span>
+          <span>Sensor Fusion (Vision + Tactile)</span><span>Physical Property Reasoning</span>
+          <span>Safety in AI</span>
+        </div>
+      </div>
+      <div class="skill-group">
+        <h3>Tools</h3>
+        <div class="tags">
+          <span>Git</span><span>Jupyter</span>
+        </div>
+      </div>
+      <div class="skill-group">
+        <h3>Cloud</h3>
+        <div class="tags">
+          <span>AWS</span><span>EC2</span><span>S3</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- AWARDS -->
+<section id="awards">
+  <div class="container">
+    <h2 class="section-title">Awards &amp; Honors</h2>
+
+    <div class="award-item">
+      <div>
+        <div class="award-title">Travel Fund Recipient</div>
+        <div class="award-awarder">WiCV at CVPR</div>
+      </div>
+      <div class="award-year">2025</div>
+    </div>
+    <div class="award-item">
+      <div>
+        <div class="award-title">Travel Fund Recipient</div>
+        <div class="award-awarder">Women in Machine Learning at NeurIPS</div>
+      </div>
+      <div class="award-year">2024</div>
+    </div>
+    <div class="award-item">
+      <div>
+        <div class="award-title">AI Fellowship Scholar</div>
+        <div class="award-awarder">Fusemachines</div>
+      </div>
+      <div class="award-year">2018</div>
+    </div>
+    <div class="award-item">
+      <div>
+        <div class="award-title">Sub-Winner</div>
+        <div class="award-awarder">NASA Space Apps Challenge</div>
+      </div>
+      <div class="award-year">2017</div>
+    </div>
+    <div class="award-item">
+      <div>
+        <div class="award-title">First Runner-up</div>
+        <div class="award-awarder">Miss Mongol Nepal</div>
+      </div>
+      <div class="award-year">2018</div>
+    </div>
+
+    <h2 class="section-title" style="margin-top:3rem;">Service &amp; Leadership</h2>
+
+    <div class="service-item">
+      <div class="service-label">Reviewer</div>
+      <div class="service-details">Women in Machine Learning (WiML) at NeurIPS, 2024–2025</div>
+    </div>
+    <div class="service-item">
+      <div class="service-label">Mentor &amp; Judge</div>
+      <div class="service-details">BisonBytes Hackathon, March 2025</div>
+    </div>
+    <div class="service-item">
+      <div class="service-label">Member</div>
+      <div class="service-details">IEEE Computer Society; IEEE Robotics and Automation technical committees; Society of Women Engineers; Women in Engineering; Rewriting the Code</div>
+    </div>
+    <div class="service-item">
+      <div class="service-label">Founder</div>
+      <div class="service-details">Miss Mongol Scholarship Foundation, 2019</div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <p>Priti Gurung · Ph.D. Candidate, Howard University · Washington, DC</p>
+  <p style="margin-top:0.4rem;"><a href="mailto:priti.gurung.phd@gmail.com">priti.gurung.phd@gmail.com</a></p>
+</footer>
+
+</body>
+</html>
