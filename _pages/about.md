@@ -90,3 +90,5 @@ Before my Ph.D., I earned a B.Sc. in Computer Science and Information Technology
 <br>**Mentor & Judge:** BisonBytes Hackathon, March 2025
 <br>**Member:** IEEE Computer Society · IEEE RAS · Society of Women Engineers · Women in Engineering · Rewriting the Code
 <br>**Founder:** Miss Mongol Scholarship Foundation, 2019
+
+.. Hobbies: I like to play sports(_I’ve never lost a marble-and-spoon race._), go hiking, travel, and dance💃 ...
