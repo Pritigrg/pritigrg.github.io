@@ -8,7 +8,7 @@
   margin-top: 2rem;
 
   h1 {
-    color: var(--global-theme-color);
+    color: v.$black-color;
     font-size: 2rem;
     text-align: center;
     margin-top: 1em;
@@ -48,7 +48,7 @@
 
         abbr {
           display: inline-block;
-          background-color: var(--global-theme-color);
+          background-color: v.$black-color;
           margin-bottom: 0.5rem;
           color: var(--global-card-bg-color) !important;
 
@@ -62,8 +62,8 @@
         }
 
         .award {
-          color: var(--global-theme-color) !important;
-          border: 1px solid var(--global-theme-color);
+          color: v.$black-color !important;
+          border: 1px solid v.$black-color;
         }
       }
 
@@ -73,7 +73,7 @@
 
       .author {
         a {
-          border-bottom: 1px dashed var(--global-theme-color);
+          border-bottom: 1px dashed v.$black-color;
 
           &:hover {
             border-bottom-style: solid;
@@ -109,8 +109,8 @@
           margin-left: 0;
 
           &:hover {
-            color: var(--global-theme-color);
-            border-color: var(--global-theme-color);
+            color: v.$black-color;
+            border-color: v.$black-color;
           }
         }
         a.award.btn {
@@ -184,5 +184,5 @@
 
 .citation,
 .citation-number {
-  color: var(--global-theme-color);
+  color: v.$black-color;
 }

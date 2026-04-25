@@ -1,189 +1,184 @@
 cv:
-  name: Albert Einstein
-  label: Scientist
-  email: einstein@example.com
-  location: Princeton, NJ
+  name: Priti Gurung
+  label: Ph.D. Candidate in Computer Science
+  email: priti.gurung.phd@gmail.com
+  location: Washington, DC
   image: ""
-  summary: A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time
-
-  social_networks:
-    - network: X
-      username: AlbertEinstein
-    - network: GitHub
-      username: example
-    - network: LinkedIn
-      username: example
-
-  address:
-    street: 2712 Broadway St
-    city: San Francisco
-    region: California
-    postalCode: CA 94115
-    countryCode: US
+  summary: Computer Science Ph.D. candidate specializing in computer vision and multimodal AI. My research focuses on improving vision-language and touch-vision-language models for physical world understanding, efficient feature refinement, and trustworthy AI systems.
 
   sections:
     Education:
-      - institution: University of Zurich
-        location: Zurich, Switzerland
-        url: https://www.uzh.ch/
-        area: Physics
-        studyType: PhD
-        start_date: 1900
-        end_date: 1905
-        score: ""
-        courses: "Theory of Relativity"
+      - institution: Howard University
+        location: Washington, DC
+        area: "GPA: 3.9/4.0"
+        studyType: Ph.D. in Computer Science
+        start_date: 2024
+        end_date: 2027
         highlights:
-          - Description 1.
-          - Description 2.
+          - Expected graduation: December 2027
 
-      - institution: Eidgenössische Technische Hochschule
-        location: Zurich, Switzerland
-        area: Physics
-        studyType: Federal teaching diploma
-        start_date: 1896
-        end_date: 1900
-        highlights:
-          - Description 1.
-          - Description 2.
+      - institution: Tribhuvan University
+        location: Kathmandu, Nepal
+        area: "GPA: 3.4/4.0"
+        studyType: B.Sc. in Computer Science and Information Technology
+        start_date: 2015
+        end_date: 2019
 
     Experience:
-      - company: Institute for Advanced Study, Princeton University
-        position: Professor of Theoretical Physics
-        location: Princeton University, NJ
-        start_date: 1933
-        end_date: 1955
-        summary: Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.
+      - company: Howard University
+        position: Research Assistant
+        location: Washington, DC
+        start_date: 2024
+        end_date: Present
         highlights:
-          - Relativity
-          - Description 2.
+          - Investigate limitations of vision-only models for physical and material understanding, including predictive object attributes such as fragile versus non-fragile, soft versus rigid.
+          - Study how physical understanding improves robust decision-making in manipulation and interaction tasks.
+          - Explore dataset-driven approaches, including touch-vision-language data, for multimodal alignment.
+          - Developed LOOM, a lightweight training-free method for refining person re-identification features at inference time without retraining or changing model architectures.
+          - Identified limitations in existing person re-identification approaches, including identity mixing and added computational cost, and designed a more stable and efficient alternative.
 
-      - company: California Institute of Technology
-        position: Visiting Professor
-        location: Pasadena, California, US
-        start_date: 1933
-        end_date: 1933
+      - company: Howard University
+        position: Teaching Assistant
+        location: Washington, DC
+        start_date: 2024
+        end_date: Present
         highlights:
-          - Description 1.
-          - Description 2.
+          - Supported Structure of Programming Languages, Intro to Computer Science (III), Applied Data Science, Theory of Computation, Computer Organization (I), and Introduction to AI.
 
-      - company: Kaiser Wilhelm Institute for Physics
-        position: Director
-        location: Berlin, Germany
-        start_date: 1917
-        end_date: 1933
-
-      - company: Karl-Ferdinand University
-        position: Professor of Theoretical Physics
-        location: Prague, Czechoslovakia
-        start_date: 1911
-        end_date: 1917
-
-      - company: University of Zurich
-        position: Associate Professor of Theoretical Physics
-        location: Zurich, Switzerland
-        start_date: 1909
-        end_date: 1911
-
-    Volunteer:
-      - company: People's Climate March
-        position: Lead Organizer
-        location: Zurich, Switzerland
-        start_date: 2014-04-01
-        end_date: 2015-07-01
-        summary: Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.
-        highlights:
-          - "Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march."
-          - "Men of the year 2014 by Time magazine"
-
-    Awards:
-      - title: Nobel Prize in Physics
-        authors:
-          - "Royal Swedish Academy of Sciences"
-        date: 1921-11-01
-        awarder: Royal Swedish Academy of Sciences
-        url: https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/
-        summary: The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'
-
-      - title: Max Planck Medal
-        authors:
-          - "German Physical Society"
-        date: 2029
-        awarder: German Physical Society
-        summary: Awarded for outstanding scientific achievement
+      - company: Cedar Gate Technologies
+        position: Data Business Analyst
+        location: Greenwich, CT
+        start_date: 2022
+        end_date: 2023
 
     Publications:
-      - title: Zur Elektrodynamik bewegter Körper
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-06-30
-        url: https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies
-        summary: It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source.
+      - title: Risk Profiling using LLM and Few-shot Prompting Technique
+        date: 2024
+        publisher: NeurIPS Women in Machine Learning Workshop
+        summary: Accepted poster presentation. Proposed an automated system for risk assessment using LLMs and prompt engineering with a 0 to 10 scoring framework for financial stability, cybersecurity, and reputation management.
 
-      - title: Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-03-18
-        url: https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt
-        summary: In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921.
+      - title: LOOM - Rethinking Feature Refinement for Person Re-Identification
+        date: 2025
+        publisher: Under submission
+        summary: Developed a plug-and-play, training-free feature enhancement method based on leave-one-out mean centering, with identity-aware and cluster-aware variants for supervised and label-free settings.
 
-      - title: Die Grundlage der allgemeinen Relativitätstheorie
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1916-03-20
-        url: https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie
-        summary: The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914).
+      - title: Extended TVL Dataset for Material Classification
+        date: 2025
+        publisher: Ongoing
+        summary: Extended a touch-vision-language dataset with material annotations, built a tactile-only encoder-based classifier, and investigated agreement between LLM-generated and human-provided labels.
+
+      - title: Getting the Right Attention - Body-Part Aware Prompting for Person Re-Identification
+        date: 2025
+        publisher: AWS Machine Learning University AI/ML Student Poster Session
+        summary: Accepted poster session. Proposed body-part-aware prompting to guide vision-language models toward stronger localization and more robust person re-identification.
+
+      - title: Towards Neuro-Symbolic Reinforcement Learning for Trustworthy Human-Autonomy Teaming
+        date: 2024
+        publisher: Assurance and Security for AI-enabled Systems, SPIE
+        summary: Oral presentation on neuro-symbolic reinforcement learning for trustworthy human-autonomy teaming.
 
     Skills:
-      - name: Physics
-        level: Master
-        icon: fa-solid fa-hashtag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
+      - name: Programming
+        keywords:
+          - Python
+          - C++
+          - C
+          - SQL
+          - MATLAB
 
-    Languages:
-      - name: German
-        summary: "Native speaker"
+      - name: Machine Learning and AI
+        keywords:
+          - PyTorch
+          - TensorFlow
+          - Transformers
+          - Hugging Face
+          - Scikit-learn
+          - OpenCV
+          - CLIP
+          - Vision-Language Models
+          - Multimodal Learning
+          - Fusion-Language-Tactile Learning
 
-      - name: English
-        summary: "Fluent"
+      - name: GPU and Systems
+        keywords:
+          - CUDA
+          - GPU Acceleration (PyTorch)
+          - Parallel Computing
+          - Linux
 
-    Interests:
-      - name: Physics
-        icon: fa-solid fa-tag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
+      - name: Robotics and Embodied AI
+        keywords:
+          - Perception for Manipulation
+          - Robot Grasping
+          - Sensor Fusion (Vision + Tactile)
+          - Physical Property Reasoning
+          - Safety in AI
 
-    Certificates:
-      - name: Machine Learning
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-location-dot
+      - name: Tools
+        keywords:
+          - Git
+          - Jupyter
 
-      - name: Quantum Computing
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-tag
+      - name: Cloud
+        keywords:
+          - AWS
+          - EC2
+          - S3
 
-      - name: Quantum Information
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-envelope
+    Awards:
+      - title: Travel Fund Recipient
+        date: 2025
+        awarder: WiCV at CVPR
+        summary: Received travel support to attend and participate in the workshop.
+
+      - title: Travel Fund Recipient
+        date: 2024
+        awarder: Women in Machine Learning at NeurIPS
+        summary: Received travel support to attend and participate in the workshop.
+
+      - title: AI Fellowship Scholar
+        date: 2018
+        awarder: Fusemachines
+
+      - title: Sub-Winner
+        date: 2017
+        awarder: NASA Space Apps Challenge
+
+      - title: First Runner-up
+        date: 2018
+        awarder: Miss Mongol Nepal
 
     Projects:
-      - name: Quantum Computing
-        summary: Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.
+      - name: LOOM Feature Refinement
+        summary: Training-free feature refinement for person re-identification that improves representation quality without retraining base models.
         highlights:
-          - Quantum Teleportation
-          - Quantum Cryptography
-        start_date: 2018-01-01
-        end_date: 2018-01-01
+          - Developed identity-aware and cluster-aware LOOM variants.
+          - Reduced intra-class variance while improving feature separability.
 
-    References:
-      - name: Professor John Doe
-        icon: fa-solid fa-laptop
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+      - name: Extended TVL Dataset
+        summary: Multimodal material classification project centered on touch-vision-language data and physical world understanding.
+        highlights:
+          - Added material-type annotations to the TVL dataset.
+          - Built a tactile-only encoder-based classifier and studied label agreement between LLMs and humans.
 
-      - name: Professor Jane Smith
-        icon: fa-solid fa-thumbtack
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+      - name: Body-Part Aware Prompting
+        summary: Prompting strategy for vision-language person re-identification that improves attention localization and robustness.
+        highlights:
+          - Proposed body-part-aware prompts to guide model focus.
+          - Presented at the AWS Machine Learning University AI/ML Student Poster Session.
+
+      - name: Risk Profiling with LLMs
+        summary: Automated multimodal risk assessment pipeline using large language models and few-shot prompting.
+        highlights:
+          - Designed a 0 to 10 scoring framework.
+          - Targeted financial stability, cybersecurity, and reputation management use cases.
+
+    Service and Leadership:
+      - label: Reviewer
+        details: Women in Machine Learning (WiML) at NeurIPS, 2024-2025
+      - label: Mentor and Graduate Student Judge
+        details: BisonBytes Hackathon, March 2025
+      - label: Member
+        details: IEEE Computer Society; IEEE Robotics and Automation technical committees; Society of Women Engineers; Women in Engineering; Rewriting the Code
+      - label: Founder
+        details: Miss Mongol Scholarship Foundation, 2019
